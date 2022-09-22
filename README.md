@@ -4,10 +4,18 @@
 ## General requirements
 
  - Node version 16.17.0
+ - MongoDB instance 
+
+## Config
+
+Add new database and collection (e.g. "users") to your MongoDB instance. 
+
+Please add your MongoDB connection URL to **config.js**. 
+You don't need to change SECRET_KEY value. 
 
 Remember to run:  
- `node install`   
-in this and  **client** directory. 
+ `node install`     
+in this and  **client** directory.   
 
 ## Backend
 
@@ -21,7 +29,7 @@ Runs the app in the development mode.
 Open [http://localhost:5500](http://localhost:5500) to open API sandbox in the browser.
 
 
-## Frontend
+## Frontend 
 
 Go to the **client** directory.  
 There you can find: 
