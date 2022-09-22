@@ -1,0 +1,4 @@
+module.exports = {
+    MONGODB: `your_mongodb_address`,
+    SECRET_KEY: 'secret key'
+}
